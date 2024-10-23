@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "gralloy",
+	"version": "${1}",
+	"name": "gralloy",
+	"description": "Add an alloy",
+	"authors": [
+		"Low_Possum"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/gralloy/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.lowpossum.gralloy.Gralloy"
+		],
+		"fabric-datagen": [
+			"com.lowpossum.gralloy.GralloyDataGenerator"
+		],
+		"client": [
+			"com.lowpossum.gralloy.GralloyClient"
+		]
+	},
+	"mixins": [
+		"gralloy.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
