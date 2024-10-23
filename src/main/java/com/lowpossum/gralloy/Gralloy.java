@@ -1,5 +1,6 @@
 package com.lowpossum.gralloy;
 
+import com.lowpossum.gralloy.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class Gralloy implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
