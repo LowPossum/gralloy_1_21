@@ -1,4 +1,9 @@
 {
   "item.gralloy.gralloy_ingot" : "Gralloy Ingot",
-  "item.gralloy.gralloy_sword" : "Gralloy Sword"
+  "item.gralloy.gralloy_sword" : "Gralloy Sword",
+
+  "block.gralloy.gralloy_block" : "Gralloy Block",
+
+  "itemgroup.gralloy.gralloy_items": "Gralloy Items",
+  "itemgroup.gralloy.gralloy_blocks": "Gralloy Blocks"
 }

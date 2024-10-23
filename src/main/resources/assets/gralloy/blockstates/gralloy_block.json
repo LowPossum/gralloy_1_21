@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gralloy:block/gralloy_block"
+    }
+  }
+}
