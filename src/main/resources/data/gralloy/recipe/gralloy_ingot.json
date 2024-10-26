@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iSi",
+    "GDG",
+    "iSi"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:shulker_shell"
+    },
+    "G": {
+      "item": "gralloy:netherite_powder"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "gralloy:gralloy_ingot",
+    "count": 1
+  }
+}

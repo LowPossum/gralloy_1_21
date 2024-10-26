@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "combat",
+  "key": {
+    "#": {
+      "item": "gralloy:gralloy_ingot"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#",
+    "#",
+    "I"
+  ],
+  "result": {
+    "count": 1,
+    "id": "gralloy:gralloy_sword"
+  }
+}

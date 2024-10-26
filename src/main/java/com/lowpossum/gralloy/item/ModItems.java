@@ -12,6 +12,8 @@ public class ModItems {
 
     //Create the new ingot
     public static final Item GRALLOY_INGOT = registerItem("gralloy_ingot", new Item(new Item.Settings()));
+    //Create new powder
+    public static final Item NETHERITE_POWDER = registerItem("netherite_powder", new Item(new Item.Settings()));
     //Create the new sword
     public static final Item GRALLOY_SWORD = registerItem("gralloy_sword", new Item(new Item.Settings()));
 
@@ -26,6 +28,8 @@ public class ModItems {
         //Add item to the INGREDIENT group
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(GRALLOY_INGOT);});
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(NETHERITE_POWDER);});
 
         //Add item to the COMBAT group
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
